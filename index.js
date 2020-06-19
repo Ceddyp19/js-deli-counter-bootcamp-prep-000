@@ -10,9 +10,17 @@
   }
 }*/
 
-function takeANumber(deliLine, newCustomerName){
-    deliLine.push(newCustomerName);
-    return  `Welcome, ${newCustomerName}. You are number ${deliLine.length} in line.`;
+const newTicket = 0;
+
+function takeANumber(){
+    
+      
+      newTicket++;
+  
+  return newTicket;
+    
+    
+    
 }
 
 
